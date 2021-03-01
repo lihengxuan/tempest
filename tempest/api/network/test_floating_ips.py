@@ -69,6 +69,15 @@ class FloatingIPTestJSON(base.BaseNetworkTest):
         for _ in range(2):
             port = cls.create_port(cls.network)
             cls.ports.append(port)
+    @decorators.attr(type='smoke')
+    @decorators.idempotent_id('9ecbeccf-0d9c-4a94-85c6-fbe2ff3e2618')
+    def test_lihx(self):
+        print("test_lhx")
+        pass
+
+
+
+
 
     @decorators.attr(type='smoke')
     @decorators.idempotent_id('62595970-ab1c-4b7f-8fcc-fddfe55e8718')
